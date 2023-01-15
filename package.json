@@ -5,19 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "build:pages": "npx @cloudflare/next-on-pages --experimental-minify",
     "dev:wrangler": "run-p cf:*",
     "cf:watch": "npx @cloudflare/next-on-pages --watch",
-    "cf:serve": "npx wrangler pages dev .vercel/output/static --compatibility-flags=streams_enable_constructors",
-    "start": "next start",
-    "lint": "next lint"
+    "cf:serve": "npx wrangler pages dev .vercel/output/static --compatibility-flags=streams_enable_constructors"
   },
   "dependencies": {
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
-    "eslint": "8.31.0",
+    "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
     "next": "13.1.2",
     "react": "18.2.0",

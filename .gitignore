@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# https://github.com/cloudflare/next-on-pages/issues/6
+package-lock.json
